@@ -1,0 +1,78 @@
+.border-flex
+{
+    border:1px solid red
+}
+
+#haut ul
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    justify-content: space-around;
+    margin-left: 70%;
+
+
+}
+
+#login
+{ 
+    background-color: #4486f2;
+    padding:5px;
+    border: #4486f2;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#logo
+{
+    display: flex;
+    justify-content: center;
+}
+
+#barre
+{
+    display: flex;
+    justify-content: center;
+}
+
+#boutons
+{
+    display: flex;
+    justify-content: center;
+    width: 400PX;
+    margin: auto;
+    justify-content: space-around;
+}
+
+#bouton_recherche, #chance
+{
+    display: flex;
+    background-color: #f8f9fa;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#bas
+{
+    display: flex;
+    background-color: #f2f2f2;
+    margin-top: 13%;
+}
+
+#pays
+{
+    display: flex;
+    margin-left: 30px;
+}
+
+#footer
+{
+    display: flex;
+}
+
+#footer ul
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
